@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import { Rating, RatingSpanish, Youth, YouthSpanish, Home } from './components';
+import { Rating, RatingSpanish, Youth, YouthSpanish, Home, Couples, CouplesSpanish } from './components';
 
 
 const App = () => {
@@ -18,6 +18,10 @@ const App = () => {
           {/* Youth component */}
           <Route path="/youth" element={<Youth />} />
           <Route path="/youth/spanish" element={<YouthSpanish />} />
+
+          {/* Couples component */}
+          <Route path="/couples" element={<Couples />} />
+          <Route path="/couples/spanish" element={<CouplesSpanish />} />
         </Routes>
       </main>      
     </BrowserRouter>

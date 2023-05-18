@@ -17,6 +17,12 @@ const Home = () => {
       <Button component={Link} to="/youth/spanish" variant="contained" color="primary" className="btn">
         Youth (Spanish)
       </Button>
+      <Button component={Link} to="/couples" variant="contained" color="primary" className="btn">
+        Couples
+      </Button>
+      <Button component={Link} to="/couples/spanish" variant="contained" color="primary" className="btn">
+        Couples (Spanish)
+      </Button>
     </div>
   );
 };

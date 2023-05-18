@@ -32,8 +32,8 @@ const Rating = () => {
       </header>
 
       {/* Form */}
-      <div className="flex ms-8 me-8 mt-2">
-      <form className="inline-flex ">
+      <div className="flex justify-center mt-2">
+        <form className="inline-flex">
           <div className="mb-4">
             <label className="block  font-bold mb-2" htmlFor="name">
               Nombre:
@@ -43,28 +43,6 @@ const Rating = () => {
               id="name"
               type="text"
               placeholder="Ingrese su nombre"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block  font-bold mb-2" htmlFor="age">
-              Edad:
-            </label>
-            <input
-              className="input-style"
-              id="age"
-              type="number"
-              placeholder="Ingrese su edad"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block  font-bold mb-2" htmlFor="id">
-              ID #:
-            </label>
-            <input
-              className="input-style"
-              id="id"
-              type="number"
-              placeholder="Ingrese su ID"
             />
           </div>
           <div className="mb-4">
@@ -114,7 +92,7 @@ const Rating = () => {
             min={0}
             max={100}
             style={{ width: '1/3' }}
-            size="small"
+            
           />
           <SentimentSatisfiedAltIcon fontSize="large" />
           <p className="text-center w-1/3 pl-4">
@@ -138,7 +116,7 @@ const Rating = () => {
             min={0}
             max={100}
             style={{ width: '1/3' }}
-            size="small"
+            
           />
           <SentimentSatisfiedAltIcon fontSize="large" />
           <p className="text-center w-1/3 pl-4">
@@ -162,7 +140,7 @@ const Rating = () => {
             min={0}
             max={100}
             style={{ width: '1/3' }}
-            size="small"
+            
           />
           <SentimentSatisfiedAltIcon fontSize="large" />
           <p className="text-center w-1/3 pl-4">
@@ -186,7 +164,7 @@ const Rating = () => {
             min={0}
             max={100}
             style={{ width: '1/3' }}
-            size="small"
+            
           />
           <SentimentSatisfiedAltIcon fontSize="large" />
           <p className="text-center w-1/3 pl-4">
