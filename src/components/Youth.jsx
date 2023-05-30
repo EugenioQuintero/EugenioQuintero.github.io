@@ -120,7 +120,7 @@ const Rating = () => {
           />
           <SentimentSatisfiedAltIcon fontSize="large" />
           <p className="text-center w-1/3 pl-4">
-            What we did and talked about were important to me.
+            What we did and talked about was important to me.
           </p>
         </div>
       </div>
